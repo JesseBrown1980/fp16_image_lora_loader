@@ -23,14 +23,14 @@ Build the Package
 Open a terminal in the fp16_image_lora_loader directory and run the following command to build the package:
 
 bash
-Copy code
+
 python setup.py sdist bdist_wheel
 Install the Package Locally
 
 After building, you can install the package by running:
 
 bash
-Copy code
+
 pip install .
 This will install the package and its dependencies (torch, opencv-python, numpy, and safetensors).
 
@@ -41,7 +41,7 @@ Loading an FP16 Image
 Use the FP16ImageLoader to load an image in FP16 format as a PyTorch tensor:
 
 python
-Copy code
+
 from fp16_image_lora_loader import FP16ImageLoader
 
 # Initialize the image loader
@@ -57,7 +57,7 @@ Loading LoRA Weights
 Use the LoRALoader to load LoRA weights in FP16 format into a PyTorch model:
 
 python
-Copy code
+
 from fp16_image_lora_loader import LoRALoader
 
 # Initialize the LoRA loader
@@ -86,7 +86,14 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contributing
-If you would like to contribute to this project, please fork the repository and submit a pull request. For major changes, please open an issue to discuss what you would like to change.
+If you would like to contribute to this project, please:
+
+Fork the repository on GitHub.
+Clone your fork and create a new branch for your feature or bug fix.
+Make your changes and commit them with descriptive messages.
+Push your changes to your fork on GitHub.
+Submit a pull request to the original repository.
+For major changes, please open an issue to discuss what you would like to change.
 
 Contact
 For questions or further information, please contact:
@@ -94,5 +101,5 @@ For questions or further information, please contact:
 Author: Jesse Daniel Brown
 Email: plasmatoid@gmail.com
 GitHub: JesseBrown1980
-Linkedin: https://www.linkedin.com/in/jessedanielbrown1980/
+LinkedIn: https://www.linkedin.com/in/jessedanielbrown1980/
 ResearchGate: https://www.researchgate.net/profile/Jesse-Brown-21
